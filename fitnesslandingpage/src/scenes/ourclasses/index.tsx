@@ -6,8 +6,9 @@ import image4 from "@/assets/image4.jpg";
 import image5 from "@/assets/image5.jpg";
 import image6 from "@/assets/image6.jpg";
 import { motion } from "framer-motion";
-import HText from "@/shared/HText";
+import BigText from "@/shared/htextog";
 import Class from "./Class";
+
 
 const classes: Array<ClassType> = [
   {
@@ -70,7 +71,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           }}
         >
           <div className="md:w-3/5">
-            <HText>OUR CLASSES</HText>
+            <BigText>OUR CLASSES</BigText>
             <p className="py-5">
               At EVOGYM, we believe that fitness should be both effective and
               enjoyable. That's why we've curated an incredible lineup of

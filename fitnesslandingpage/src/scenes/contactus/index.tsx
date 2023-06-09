@@ -2,7 +2,7 @@ import { SelectedPage } from "@/shared/types";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
-import HText from "@/shared/HText";
+import BigText from "@/shared/htextog";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -42,9 +42,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>
+          <BigText>
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
-          </HText>
+          </BigText>
           <p className="my-5">
             Whether you're a beginner taking your first steps towards a
             healthier lifestyle or an experienced athlete seeking new

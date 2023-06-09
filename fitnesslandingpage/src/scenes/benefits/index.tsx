@@ -1,4 +1,4 @@
-import HText from "@/shared/HText";
+import BigText from "@/shared/htextog";
 import { BenefitType, SelectedPage } from "@/shared/types";
 import {
   AcademicCapIcon,
@@ -61,7 +61,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           }}
           className="md:my-5 md:w-3/5"
         >
-          <HText>MORE THAN JUST A GYM.</HText>
+          <BigText>MORE THAN JUST A GYM.</BigText>
           <p className="my-5 text-sm">
             We provide world class fitness equipment, trainers, and classes to
             help guide you to your fitness goals. We pride ourselves on being
@@ -115,10 +115,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   visible: { opacity: 1, x: 0 },
                 }}
               >
-                <HText>
+                <BigText>
                   MILLIONS OF HAPPY MEMBERS GETTING{" "}
                   <span className="text-primary-500">FIT</span>
-                </HText>
+                </BigText>
               </motion.div>
             </div>
 
