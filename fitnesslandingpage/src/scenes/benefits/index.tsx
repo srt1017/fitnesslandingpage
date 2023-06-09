@@ -1,4 +1,4 @@
-import HText from "@/shared/Htext";
+import HText from "@/shared/HText";
 import { BenefitType, SelectedPage } from "@/shared/types";
 import {
   AcademicCapIcon,
