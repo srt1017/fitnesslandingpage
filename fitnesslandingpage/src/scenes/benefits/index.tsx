@@ -70,7 +70,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             journey, our coaches build custom plans that are tailor made to fit
             you.
           </p>
-          motion.
+          
         </motion.div>
 
         {/* Benefits */}
